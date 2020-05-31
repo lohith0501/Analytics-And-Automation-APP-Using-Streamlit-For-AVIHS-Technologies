@@ -112,7 +112,7 @@ def main():
                                            subtype=file_type, filename=file_name)
 
                 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-                    smtp.login('lohith.udemy@gmail.com', 'SSingapore123')
+                    smtp.login('lohith.udemy@gmail.com', '3')
                     smtp.send_message(msg)
 
     if sdbar_select == "Whatsap Automation":
